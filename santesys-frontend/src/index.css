@@ -3,7 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* div{
+div,h1,h2{
+    font-family: "Faculty Glyphic", sans-serif;
+    font-style: normal;
+}
+/* div,h1,h2{
     border:1px black solid;
 } */
 .faculty-glyphic-regular {
