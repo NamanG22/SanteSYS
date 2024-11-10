@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* div{
+    border:1px black solid;
+} */
+.faculty-glyphic-regular {
+    font-family: "Faculty Glyphic", sans-serif;
+    font-style: normal;
+  }
+  

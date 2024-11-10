@@ -1,0 +1,40 @@
+# Node Modules
+node_modules/
+
+# Build Output
+dist/
+out/
+
+# Vite and Cache Files
+.vite
+.vitest
+.cache/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Editor Files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Backend Folder (optional if you have specific files to ignore here)
+backend/node_modules/
+backend/dist/
+backend/.env
