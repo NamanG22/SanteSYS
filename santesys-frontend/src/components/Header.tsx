@@ -10,7 +10,7 @@ const Header = () => {
                                 <img
                                 alt="Cohere"
                                 title=""
-                                fetchpriority="high"
+                                fetchPriority="high"
                                 width="0"
                                 height="0"
                                 decoding="async"
