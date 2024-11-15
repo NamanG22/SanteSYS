@@ -1,0 +1,18 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
+                        <stop stopColor="rgba(248, 117, 55, 1)" offset="0%" />
+                        <stop stopColor="rgba(251, 168, 31, 1)" offset="100%" />
+                    </linearGradient>
+                </defs>
+                <path
+                    fill="url(#sw-gradient)"
+                    d="M18.9,-27.4C25.6,-25.1,32.8,-21.7,36,-16C39.3,-10.3,38.6,-2.4,38.1,5.9C37.5,14.2,37.1,23,32.7,28.6C28.3,34.2,19.8,36.5,11.9,37.5C3.9,38.4,-3.6,38,-10.2,35.7C-16.9,33.3,-22.7,29,-26.4,23.5C-30.1,18,-31.8,11.4,-34.5,3.9C-37.2,-3.6,-41,-12,-39.6,-19.3C-38.1,-26.5,-31.5,-32.5,-24,-34.5C-16.5,-36.4,-8.3,-34.2,-1.1,-32.5C6.1,-30.8,12.2,-29.7,18.9,-27.4Z"
+                    width="100%"
+                    height="100%"
+                    transform="translate(50 50)"
+                    strokeWidth="0"
+                    style={{ transition: "0.3s" }}
+                    stroke="url(#sw-gradient)"
+                />
+            </svg>
