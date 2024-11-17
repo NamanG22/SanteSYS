@@ -9,20 +9,20 @@ const HeadText = ()=>{
                         //     fontVariantLigatures: "common-ligatures",
                         // }}
                     >
-                        <span>The Leading</span>
+                        <span>The Integrated</span>
                         <br/>
-                        <span>Enterprise AI Platform </span>
+                        <span>Health Ecosystem for Smarter Care</span>
                         <br/>
                     </h1>
                     <span className="text-md 2xl:text-lg font-body md:w-3/5 !mb-10 mb-6 ibm-plex-mono-regular">
                         <div className="[&amp;_a]:!inline portable-text-breaks">
                             <p className="text-3xl 2xl:text-5xl font-body">
-                                Built on the language of business
+                                Seamlessly connecting patients, doctors, labs, and 
                                 <br/><br/>
                             </p>
                             <p className="text-3xl 2xl:text-5xl font-body"></p>
                             <p className="text-lg 2xl:text-3xl font-body">
-                                Optimized for enterprise generative AI, <br/>search and discovery, and advanced retrieval.
+                            pharmacies to deliver personalized, efficient, <br/>and AI-driven healthcare solutions.
                             </p>
                         </div>
                     </span>
@@ -41,7 +41,7 @@ const HeadText = ()=>{
                                             <div className="z-10 w-full">
                                                 <span className="px-2 justify-between flex w-full items-center transition-all">
                                                     <span className="text-[14px] font-body uppercase">
-                                                        <span>Contact Sales</span>
+                                                        <span>Get Started</span>
                                                         <br/>
                                                     </span>
                                                 </span>
@@ -78,7 +78,7 @@ const HeadText = ()=>{
                                             <div className="z-10 flex w-full items-center justify-between">
                                                 <span className="px-1 justify-between flex w-full items-center transition-all">
                                                     <span className="text-[14px] font-body uppercase">
-                                                        <span>Try the Playground</span>
+                                                        <span>Explore Features</span>
                                                         <br/>
                                                     </span>
                                                 </span>

@@ -3,11 +3,11 @@ const Header = () => {
         <nav role="navigation" className="absolute z-10 flex h-10 w-full items-center justify-between gap-x-1 px-4 transition-all duration-300 ease-in-out md:fixed md:px-10 lg:gap-x-1.5 lg:px-12 top-0 my-4">
             <a aria-label="home" className="flex h-full flex-1 transition-all focus:outline-coral-500 xl:flex-none" href="/">
                 <div className="h-full min-h-cell-md max-h-cell-md flex grow group/cell transition-all">
-                    <span className="border-mushroom-500 bg-mushroom-50 h-full min-h-cell-md max-h-cell-md transition-all bg-clip-padding origin-top-right -mr-0.5 w-3 rounded-l-[6px] rounded-r-none border border-r-0"></span>
-                    <div className="text-volcanic-900 border-mushroom-500 bg-mushroom-50 h-full min-h-cell-md max-h-cell-md truncate flex grow relative transition-all border-b border-t">
+                    <span className="border-mushroom-500 bg-white h-full min-h-cell-md max-h-cell-md transition-all bg-clip-padding origin-top-right -mr-0.5 w-3 rounded-l-[6px] rounded-r-none border border-r-0"></span>
+                    <div className="text-volcanic-900 border-mushroom-500 bg-white h-full min-h-cell-md max-h-cell-md truncate flex grow relative transition-all border-b border-t">
                         <div className="z-10 flex w-full items-center justify-between">
                             <div className="flex items-center px-2 py-4 xl:justify-center">
-                                <img
+                                {/* <img
                                 alt="Cohere"
                                 title=""
                                 fetchPriority="high"
@@ -18,17 +18,25 @@ const Header = () => {
                                 className="h-auto w-full object-contain"
                                 style={{ color: 'transparent' }}
                                 src="https://cdn.sanity.io/images/rjtqmwfu/production/ae020d94b599cc453cc09ebc80be06d35d953c23-102x18.svg"
-                                />
+                                /> */}
+                                <p className="font-bold text-2xl">
+                                    Sante
+                                    <span className="text-red-600">
+                                        <span className="z-0">S</span>
+                                        <span className="">Y</span>
+                                        <span className="">S</span>
+                                    </span>
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <span className="border-mushroom-500 bg-mushroom-50 h-full min-h-cell-md max-h-cell-md transition-all bg-clip-padding origin-top-right w-6 -skew-x-[21deg] rounded-tr-[10px] rounded-br-[4px] rounded-tl-none rounded-bl-none border border-l-0"></span>
+                    <span className="border-mushroom-500 bg-white h-full min-h-cell-md max-h-cell-md transition-all bg-clip-padding origin-top-right w-6 -skew-x-[21deg] rounded-tr-[10px] rounded-br-[4px] rounded-tl-none rounded-bl-none border border-l-0"></span>
                 </div>
             </a>
             <div className="z-30 hidden h-full flex-1 xl:flex">
                 <div className="h-full min-h-cell-md max-h-cell-md flex grow group transition-all">
-                    <span className="border-mushroom-500 bg-mushroom-50 h-full min-h-cell-md max-h-cell-md transition-all bg-clip-padding origin-top-right w-6 -mr-4 -skew-x-[21deg] rounded-tl-[4px] rounded-bl-[10px] border border-r-0"></span>
-                    <div className="text-volcanic-900 border-mushroom-500 bg-mushroom-50 h-full min-h-cell-md max-h-cell-md flex grow relative transition-all border-b border-t">
+                    <span className="border-mushroom-500 bg-white h-full min-h-cell-md max-h-cell-md transition-all bg-clip-padding origin-top-right w-6 -mr-4 -skew-x-[21deg] rounded-tl-[4px] rounded-bl-[10px] border border-r-0"></span>
+                    <div className="text-volcanic-900 border-mushroom-500 bg-white h-full min-h-cell-md max-h-cell-md flex grow relative transition-all border-b border-t">
                         <div className="z-10 flex w-full items-center justify-between">
                             <ul className="z-30 h-full flex-1 flex-row items-center gap-x-10 px-8 xl:flex">
                                 <li className="z-nav h-full w-auto px-0 py-0.5 2xl:relative" data-headlessui-state="">
@@ -79,14 +87,14 @@ const Header = () => {
                             </ul>
                         </div>
                     </div>
-                    <span className="border-mushroom-500 bg-mushroom-50 h-full min-h-cell-md max-h-cell-md transition-all bg-clip-padding origin-top-right w-6 -skew-x-[21deg] rounded-tr-[10px] rounded-br-[4px] rounded-l-none border border-l-0"></span>
+                    <span className="border-mushroom-500 bg-white h-full min-h-cell-md max-h-cell-md transition-all bg-clip-padding origin-top-right w-6 -skew-x-[21deg] rounded-tr-[10px] rounded-br-[4px] rounded-l-none border border-l-0"></span>
                 </div>
             </div>
             {/* <a href="#" rel="noopener noreferrer" target="_blank" data-fs-element="Marketing>Nav>Try now" className="focus:outline-coral-500"> */}
                 <div className="hidden h-full xl:flex">
                     <div className="h-full min-h-cell-md max-h-cell-md flex grow group/cell transition-all">
-                        <span className="border-mushroom-500 bg-mushroom-50 h-full min-h-cell-md max-h-cell-md transition-all bg-clip-padding origin-top-right w-6 -mr-4 -skew-x-[21deg] rounded-tl-[4px] rounded-bl-[10px] rounded-r-none border border-r-0"></span>
-                        <div className="text-volcanic-900 border-mushroom-500 bg-mushroom-50 h-full min-h-cell-md max-h-cell-md truncate flex grow relative transition-all border-b border-t">
+                        <span className="border-mushroom-500 bg-white h-full min-h-cell-md max-h-cell-md transition-all bg-clip-padding origin-top-right w-6 -mr-4 -skew-x-[21deg] rounded-tl-[4px] rounded-bl-[10px] rounded-r-none border border-r-0"></span>
+                        <div className="text-volcanic-900 border-mushroom-500 bg-white h-full min-h-cell-md max-h-cell-md truncate flex grow relative transition-all border-b border-t">
                             <div className="z-10 flex w-full items-center justify-between">
                                 <p className="text-xs font-body px-2 py-6 uppercase tracking-[0.08em]">
                                     <span>Try now</span>
@@ -94,7 +102,7 @@ const Header = () => {
                                 </p>
                             </div>
                         </div>
-                        <span className="border-mushroom-500 bg-mushroom-50 h-full min-h-cell-md max-h-cell-md transition-all bg-clip-padding origin-top-right -ml-0.5 w-3 rounded-r-[6px] border border-l-0"></span>
+                        <span className="border-mushroom-500 bg-white h-full min-h-cell-md max-h-cell-md transition-all bg-clip-padding origin-top-right -ml-0.5 w-3 rounded-r-[6px] border border-l-0"></span>
                     </div>
                 </div>
             {/* </a> */}
