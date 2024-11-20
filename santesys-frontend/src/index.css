@@ -19,7 +19,7 @@
     font-style: normal;
   }
 
-  .font-body {
+  .font-body,.font-variable {
     font-family: "Sour Gummy", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
