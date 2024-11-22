@@ -7,13 +7,15 @@ import Deployment from '../components/Deployment';
 import Courses from '../components/Courses';
 import Mission from '../components/Mission';
 import Footer from '../components/Footer';
+// import Trial from '../components/Trial';
 
 export const Layout = () => {
     return(
         <>
             <Header/>
             <Hero/>
-            <CompanyCarousel/>      
+            <CompanyCarousel/>     
+            {/* <Trial/>  */}
             <Models/>
             <PlayGround/>      
             <Deployment/>

@@ -3,26 +3,25 @@ const HeadText = ()=>{
         <div className="w-full relative z-content py-12 lg:py-16 2xl:py-26 max-w-full-screen mx-auto px-5 md:px-10 lg:px-24 pt-24 lg:pt-32">
             <div className="flex flex-col justify-between">
                 <div className="mb-[340px] md:mb-8 flex w-full flex-col justify-end">
-                    <h1 className="text-6xl 2xl:text-8xl mb-[14px] md:!mb-12 tracking-tighter ibm-plex-mono-regular"
+                    <h1 className="text-6xl 2xl:text-8xl mb-[14px] md:!mb-12 tracking-tighter parkinsans-headText"
                         // style={{
                         //     fontVariationSettings: "'cuts' 100, 'move' 100",
                         //     fontVariantLigatures: "common-ligatures",
                         // }}
                     >
-                        <span>The Integrated</span>
-                        <br/>
-                        <span>Health Ecosystem for Smarter Care</span>
-                        <br/>
+                        <span className="block mb-4">The Integrated</span>
+                        <span className="block mb-4">Health Ecosystem</span>
+                        <span>for Smarter Care</span>
                     </h1>
                     <span className="text-md 2xl:text-lg font-body md:w-3/5 !mb-10 mb-6 ibm-plex-mono-regular">
                         <div className="[&amp;_a]:!inline portable-text-breaks">
                             <p className="text-3xl 2xl:text-5xl font-body">
-                                Seamlessly connecting patients, doctors, labs, and 
+                            Transforming care with intelligent health solutions
                                 <br/><br/>
                             </p>
                             <p className="text-3xl 2xl:text-5xl font-body"></p>
                             <p className="text-lg 2xl:text-3xl font-body">
-                            pharmacies to deliver personalized, efficient, <br/>and AI-driven healthcare solutions.
+                            Designed for precision, accessibility <br/>and seamless coordination.
                             </p>
                         </div>
                     </span>

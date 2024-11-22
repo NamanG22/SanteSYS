@@ -1,3 +1,6 @@
+import LogoAnimation from './LogoAnimation';
+import logo from '../assets/svgs/SanteSYS-(1).svg'
+
 const Footer = ()=>{
     return(
         <footer role="contentinfo">
@@ -112,7 +115,8 @@ const Footer = ()=>{
                         </div>
                     </div>
                     <div className="relative mt-12 w-full lg:mt-20">
-                        <img alt="Really big Cohere Logo" title="" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain motion-safe:opacity-0 motion-safe:animate-fadeInSpot h-auto w-full" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/28e74135f57d785599b3f36e024230911600c965-1320x225.svg"/>
+                        <img alt="Really big Cohere Logo" title="" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain motion-safe:opacity-0 motion-safe:animate-fadeInSpot h-auto w-full" style={{color:'transparent'}} src={logo}/>
+                        {/* <LogoAnimation/> */}
                     </div>
                     <div className="my-8 border-t border-t-volcanic-800"></div>
                     <div className="flex flex-col justify-between md:flex-row lg:mb-6">

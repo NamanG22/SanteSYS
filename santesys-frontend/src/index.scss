@@ -1,0 +1,39 @@
+.control_the_experience-desktop,
+.control_the_experience-mobile {
+  -moz-animation: control 1s forwards;
+  -webkit-animation: control 1s forwards;
+  animation: control 1s forwards;
+  opacity: 0;
+  fill: #0b5085;
+}
+
+@for $i from 0 to 20 {
+  .control_the_experience-#{$i} {
+    -moz-animation-delay: $i * 0.1s;
+    -webkit-animation-delay: $i * 0.1s;
+    animation-delay: $i * 0.1s;
+  }
+}
+
+@keyframes control {
+  0% {
+    opacity: 100;
+  }
+  25% {
+    fill: none;
+    stroke: #0b5085;
+    stroke-dasharray: 20;
+  }
+  50% {
+    stroke-width: 0.2;
+    fill: none;
+    stroke-dasharray: 10;
+    opacity: 100;
+  }
+  100% {
+    stroke-width: 0.2;
+    stroke: #0b5085;
+    fill: #0b5085;
+    opacity: 100;
+  }
+}

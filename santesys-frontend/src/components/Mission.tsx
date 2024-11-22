@@ -102,7 +102,7 @@ const Mission = ()=>{
                                 className="text-4xl lg:text-6xl 2xl:text-8xl justify-center font-variable flex text-marble-200 mobile-only:!text-3xl motion-safe:opacity-0 motion-safe:animate-fadeInUp" style={{ animationDelay: '650ms' }} 
                                 // style="font-variation-settings:'cuts' 100, 'move' 100;font-variant-ligatures:common-ligatures"
                                 >
-                                    to scale intelligence
+                                    To simplify healthcare
                                 </h2>
                             </div>
                             <div>
@@ -110,7 +110,15 @@ const Mission = ()=>{
                                 className="text-4xl lg:text-6xl 2xl:text-8xl justify-center font-variable flex text-marble-200 mobile-only:!text-3xl motion-safe:opacity-0 motion-safe:animate-fadeInUp" style={{ animationDelay: '1250ms' }}
                                 // style="font-variation-settings:'cuts' 100, 'move' 100;font-variant-ligatures:common-ligatures"
                                 >
-                                    to serve humanity
+                                    enhance accessibility
+                                </h2>
+                            </div>
+                            <div>
+                                <h2 
+                                className="text-4xl lg:text-6xl 2xl:text-8xl justify-center font-variable flex text-marble-200 mobile-only:!text-3xl motion-safe:opacity-0 motion-safe:animate-fadeInUp" style={{ animationDelay: '1850ms' }}
+                                // style="font-variation-settings:'cuts' 100, 'move' 100;font-variant-ligatures:common-ligatures"
+                                >
+                                    prioritize care
                                 </h2>
                             </div>
                             <h2 
@@ -121,8 +129,8 @@ const Mission = ()=>{
                             </h2>
                         </div>
                     </div>
-                    <div className="grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-9 lg:gap-16 2xl:gap-20 px-[96.4px]">
-                        <div className="flex flex-row motion-safe:opacity-0 motion-safe:animate-fadeInUp" style={{ animationDelay: '1500ms' }}>
+                    <div className="flex md:grid-cols-3 md:gap-4 2xl:gap-20">
+                        <div className="flex flex-row motion-safe:opacity-0 motion-safe:animate-fadeInUp w-1/4" style={{ animationDelay: '2100ms' }}>
                             <h3 className="text-2xl uppercase font-body mb-4 pr-2 text-marble-200 md:mb-6">
                                 1.
                             </h3>
@@ -139,36 +147,53 @@ const Mission = ()=>{
                                 </p>
                             </div>
                         </div>
-                        <div className="flex flex-row motion-safe:opacity-0 motion-safe:animate-fadeInUp" style={{ animationDelay: '1900ms' }}>
+                        <div className="flex flex-row motion-safe:opacity-0 motion-safe:animate-fadeInUp w-1/4" style={{ animationDelay: '2700ms' }}>
                             <h3 className="text-2xl uppercase font-body mb-4 pr-2 text-marble-200 md:mb-6">
                                 2.
                             </h3>
                             <div>
                                 <h3 className="text-2xl uppercase font-body mb-4 text-marble-200 md:mb-6">
-                                    <span>TO scale intelligence</span>
+                                    <span>To simplify healthcare</span>
                                     <br/>
                                 </h3>
                                 <p className="text-xs lg:text-base font-body mb-6 text-xs text-marble-200">
-                                    <span>We want to make intelligence</span>
+                                    <span>We streamline processes with innovative solutions,</span>
                                     <br/>
-                                    <span>abundant, affordable, and accessible.</span>
+                                    <span>making healthcare effortless for all.</span>
                                     <br/>
                                 </p>
                             </div>
                         </div>
-                        <div className="flex flex-row motion-safe:opacity-0 motion-safe:animate-fadeInUp" style={{ animationDelay: '2300ms' }}>
+                        <div className="flex flex-row motion-safe:opacity-0 motion-safe:animate-fadeInUp w-1/4" style={{ animationDelay: '3300ms' }}>
                             <h3 className="text-2xl uppercase font-body mb-4 pr-2 text-marble-200 md:mb-6">
                                 3.
                             </h3>
                             <div>
                                 <h3 className="text-2xl uppercase font-body mb-4 text-marble-200 md:mb-6">
-                                    <span>to serve humanity</span>
+                                    <span>Enhance accessibility</span>
                                     <br/>
                                 </h3>
                                 <p className="text-xs lg:text-base font-body mb-6 text-xs text-marble-200">
-                                    <span>We build our technology to</span>
+                                    <span>Our goal is to ensure seamless access to</span>
                                     <br/>
-                                    <span>benefit people and positively impact the world.</span>
+                                    <span>healthcare services for everyone, everywhere.</span>
+                                    <br/>
+                                </p>
+                            </div>
+                        </div>
+                        <div className="flex flex-row motion-safe:opacity-0 motion-safe:animate-fadeInUp w-1/4" style={{ animationDelay: '3800ms' }}>
+                            <h3 className="text-2xl uppercase font-body mb-4 pr-2 text-marble-200 md:mb-6">
+                                4.
+                            </h3>
+                            <div>
+                                <h3 className="text-2xl uppercase font-body mb-4 text-marble-200 md:mb-6">
+                                    <span>Prioritize care</span>
+                                    <br/>
+                                </h3>
+                                <p className="text-xs lg:text-base font-body mb-6 text-xs text-marble-200">
+                                    <span>We are committed to delivering personalized,</span>
+                                    <br/>
+                                    <span>data-driven solutions that put people's well-being first.</span>
                                     <br/>
                                 </p>
                             </div>

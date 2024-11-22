@@ -25,7 +25,7 @@ const PlayGround = () =>{
                             <div className="flex flex-col justify-between">
                                 <div className="text-marble-100 flex w-full flex-col justify-end">
                                     <h2 className="text-4xl lg:text-5xl 2xl:text-6xl font-body mb-6 mb-3">
-                                        <span>Build with Advanced Retrieval</span>
+                                        <span>Build with India Stack</span>
                                         <br/>
                                     </h2>
                                     <span className="text-xs lg:text-base font-body md:w-3/4 mb-6">

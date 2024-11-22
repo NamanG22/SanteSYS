@@ -73,6 +73,7 @@ module.exports = {
           500: '#bdbdbd'
         },
         coral:{
+          500: '#ff7759',
           700: '#BDBDBD'
         }
       },
