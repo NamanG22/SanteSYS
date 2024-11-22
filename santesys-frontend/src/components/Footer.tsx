@@ -1,4 +1,3 @@
-import LogoAnimation from './LogoAnimation';
 import logo from '../assets/svgs/SanteSYS-(1).svg'
 
 const Footer = ()=>{
