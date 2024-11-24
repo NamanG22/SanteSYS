@@ -16,7 +16,7 @@ const Courses = ()=>{
                             <div>
                                 <div className="flex w-full max-w-[424px] !text-marble-100 flex-col">
                                     <div className="flex justify-center overflow-hidden rounded-lg transition-transform duration-300 ease-in-out hover:scale-[1.02] aspect-[2/1] mb-5">
-                                        <a href="https://dashboard.cohere.ai/welcome/register?__hstc=14363112.01113939d1ec4a035bf17f405a1c9714.1730039348131.1731932864669.1732032811642.14&amp;__hssc=14363112.1.1732032811642&amp;__hsfp=2437715757" target="_blank" rel="noreferrer" className="w-full">
+                                        <a href="/" target="_blank" rel="noreferrer" className="w-full">
                                             <img alt="Featured image for article" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" className="h-full w-full object-cover rounded-lg" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/5c1f86ba769235354f93a421eeb871f0d2a52e1b-424x212.svg"/>
                                         </a>
                                     </div>
@@ -34,7 +34,7 @@ const Courses = ()=>{
                                             </p>
                                         </div>
                                         <div className="flex flex-row">
-                                            <a aria-label="GO TO PLAYGROUND: Explore how the latest AI advancements can apply to your business" className="group inline-block max-w-full disabled:cursor-not-allowed focus-visible:outline-1 focus-visible:outline focus-visible:outline-coral-500 rounded-sm [&amp;>*]:text-web3-md w-content" target="_blank" href="https://dashboard.cohere.ai/welcome/register?__hstc=14363112.01113939d1ec4a035bf17f405a1c9714.1730039348131.1731932864669.1732032811642.14&amp;__hssc=14363112.1.1732032811642&amp;__hsfp=2437715757">
+                                            <a aria-label="GO TO PLAYGROUND: Explore how the latest AI advancements can apply to your business" className="group inline-block max-w-full disabled:cursor-not-allowed focus-visible:outline-1 focus-visible:outline focus-visible:outline-coral-500 rounded-sm [&amp;>*]:text-web3-md w-content" target="_blank" href="/">
                                                 <span className="flex items-center visited:text-coral-700 text-blue-400">
                                                     <span className="">
                                                         <span className="text-[16px] font-body uppercase">
@@ -54,7 +54,7 @@ const Courses = ()=>{
                             <div>
                                 <div className="flex w-full max-w-[424px] !text-marble-100 flex-col">
                                     <div className="flex justify-center overflow-hidden rounded-lg transition-transform duration-300 ease-in-out hover:scale-[1.02] aspect-[2/1] mb-5">
-                                        <a href="https://docs.cohere.com/docs/llmu" target="_blank" rel="noreferrer" className="w-full">
+                                        <a href="/" target="_blank" rel="noreferrer" className="w-full">
                                             <img alt="Featured image for article" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" className="h-full w-full object-cover rounded-lg" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/a2a06112e210ab59350f98cfdb11067b7d56e588-424x212.svg"/>
                                         </a>
                                     </div>
@@ -72,7 +72,7 @@ const Courses = ()=>{
                                             </p>
                                         </div>
                                         <div className="flex flex-row">
-                                            <a aria-label="LEARN MORE: Get the competitive edge in generative AI with courses from LLM University" className="group inline-block max-w-full disabled:cursor-not-allowed focus-visible:outline-1 focus-visible:outline focus-visible:outline-coral-500 rounded-sm [&amp;>*]:text-web3-md w-content" target="_blank" href="https://docs.cohere.com/docs/llmu">
+                                            <a aria-label="LEARN MORE: Get the competitive edge in generative AI with courses from LLM University" className="group inline-block max-w-full disabled:cursor-not-allowed focus-visible:outline-1 focus-visible:outline focus-visible:outline-coral-500 rounded-sm [&amp;>*]:text-web3-md w-content" target="_blank" href="/">
                                                 <span className="flex items-center visited:text-coral-700 text-blue-400">
                                                     <span className="">
                                                         <span className="text-[16px] font-body uppercase">
@@ -92,7 +92,7 @@ const Courses = ()=>{
                             <div>
                                 <div className="flex w-full max-w-[424px] !text-marble-100 flex-col">
                                     <div className="flex justify-center overflow-hidden rounded-lg transition-transform duration-300 ease-in-out hover:scale-[1.02] aspect-[2/1] mb-5">
-                                        <a href="https://docs.cohere.com" target="_blank" rel="noreferrer" className="w-full">
+                                        <a href="/" target="_blank" rel="noreferrer" className="w-full">
                                             <img alt="Featured image for article" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" className="h-full w-full object-cover rounded-lg" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/48866e4b00604442d89ba0911fe6b0d62815d68b-424x212.svg"/>
                                         </a>
                                     </div>
@@ -110,7 +110,7 @@ const Courses = ()=>{
                                             </p>
                                         </div>
                                         <div className="flex flex-row">
-                                            <a aria-label="READ THE DOCS: Start integrating Cohere’s AI models into your apps and workflows" className="group inline-block max-w-full disabled:cursor-not-allowed focus-visible:outline-1 focus-visible:outline focus-visible:outline-coral-500 rounded-sm [&amp;>*]:text-web3-md w-content" target="_blank" href="https://docs.cohere.com">
+                                            <a aria-label="READ THE DOCS: Start integrating Cohere’s AI models into your apps and workflows" className="group inline-block max-w-full disabled:cursor-not-allowed focus-visible:outline-1 focus-visible:outline focus-visible:outline-coral-500 rounded-sm [&amp;>*]:text-web3-md w-content" target="_blank" href="/">
                                                 <span className="flex items-center visited:text-coral-700 text-blue-400">
                                                     <span className="">
                                                         <span className="text-[16px] font-body uppercase">

@@ -54,7 +54,7 @@ const Mission = ()=>{
                             <br/>
                         </p>
                         <div className="hidden !w-fit lg:block flex w-full flex-col">
-                            <a className="sm:w-btn-md focus:outline-none disabled:cursor-not-allowed inline-block" target="_self" href="/careers">
+                            <a className="sm:w-btn-md focus:outline-none disabled:cursor-not-allowed inline-block" target="_self" href="/">
                                 <div className="relative flex grow">
                                     <div className="z-10 flex grow gap-x-2.5 group w-[300px]">
                                         <div className="h-full min-h-cell-md max-h-cell-md flex grow group/cell transition-all w-[280px]">
@@ -129,8 +129,8 @@ const Mission = ()=>{
                             </h2>
                         </div>
                     </div>
-                    <div className="flex md:grid-cols-3 md:gap-4 2xl:gap-20">
-                        <div className="flex flex-row motion-safe:opacity-0 motion-safe:animate-fadeInUp w-1/4" style={{ animationDelay: '2100ms' }}>
+                    <div className="flex md:grid-cols-3 md:gap-12 2xl:gap-20 -mx-20">
+                        <div className="flex flex-row justify-center motion-safe:opacity-0 motion-safe:animate-fadeInUp w-1/4" style={{ animationDelay: '2100ms' }}>
                             <h3 className="text-2xl uppercase font-body mb-4 pr-2 text-marble-200 md:mb-6">
                                 1.
                             </h3>
@@ -157,10 +157,8 @@ const Mission = ()=>{
                                     <br/>
                                 </h3>
                                 <p className="text-xs lg:text-base font-body mb-6 text-xs text-marble-200">
-                                    <span>We streamline processes with innovative solutions,</span>
-                                    <br/>
-                                    <span>making healthcare effortless for all.</span>
-                                    <br/>
+                                    <span>We streamline processes with innovative solutions,
+                                    making healthcare effortless for all.</span>
                                 </p>
                             </div>
                         </div>
@@ -174,10 +172,8 @@ const Mission = ()=>{
                                     <br/>
                                 </h3>
                                 <p className="text-xs lg:text-base font-body mb-6 text-xs text-marble-200">
-                                    <span>Our goal is to ensure seamless access to</span>
-                                    <br/>
-                                    <span>healthcare services for everyone, everywhere.</span>
-                                    <br/>
+                                    <span>Our goal is to ensure seamless access to
+                                    healthcare services for everyone, everywhere.</span>
                                 </p>
                             </div>
                         </div>
@@ -191,16 +187,14 @@ const Mission = ()=>{
                                     <br/>
                                 </h3>
                                 <p className="text-xs lg:text-base font-body mb-6 text-xs text-marble-200">
-                                    <span>We are committed to delivering personalized,</span>
-                                    <br/>
-                                    <span>data-driven solutions that put people's well-being first.</span>
-                                    <br/>
+                                    <span>We are committed to delivering personalized,
+                                        data-driven solutions that put people's well-being first.</span>
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div className="mx-auto pb-4 pt-10 lg:hidden md-only:items-end flex w-full flex-col px-[96.4px]">
-                        <a className="sm:w-btn-md focus:outline-none disabled:cursor-not-allowed inline-block" target="_self" href="/careers">
+                        <a className="sm:w-btn-md focus:outline-none disabled:cursor-not-allowed inline-block" target="_self" href="/">
                             <div className="relative flex grow">
                                 <div className="z-10 flex grow gap-x-2.5">
                                     <div className="h-full min-h-cell-md max-h-cell-md flex grow group/cell transition-all">

@@ -4,14 +4,6 @@ import { GiTechnoHeart } from "react-icons/gi";
 import prescripto from '../assets/svgs/Component-1.svg';
 
 const Models = () =>{
-    // const encodedUrl1 = '/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Frjtqmwfu%2Fproduction%2F7ba67b7357395c8873519b3452127944b7fd1e44-1440x3481.png&w=3840&q=100';
-    // const decodedUrl1 = decodeURIComponent(encodedUrl1.split('?url=')[1]);
-    // // console.log(decodedUrl); // Outputs the decoded URL
-    // const encodedUrl2 = '/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Frjtqmwfu%2Fproduction%2Fc9ffe2a19deeb32604103f7bef0e74d334b8ce65-2232x11694.png&w=3840&q=100';
-    // const decodedUrl2 = decodeURIComponent(encodedUrl2.split('?url=')[1]);
-    // // console.log(decodedUrl); // Outputs the decoded URL
-    // const encodedUrl3 = '/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Frjtqmwfu%2Fproduction%2Fc9ffe2a19deeb32604103f7bef0e74d334b8ce65-2232x11694.png&w=3840&q=100';
-    // const decodedUrl3 = decodeURIComponent(encodedUrl3.split('?url=')[1]);
     console.log(commandSvg);
     return(
         <section className="relative w-full bg-bottom">
@@ -137,7 +129,7 @@ const Models = () =>{
                                     </div>
                                     <div className="flex flex-col justify-end">
                                         <div className="!mt-8 lg:!mt-20 flex w-full flex-col">
-                                            <a aria-label="Learn more about our command model" className="sm:w-btn-md focus:outline-none disabled:cursor-not-allowed inline-block" target="_self" href="/command">
+                                            <a aria-label="Learn more about our command model" className="sm:w-btn-md focus:outline-none disabled:cursor-not-allowed inline-block" target="_self" href="/">
                                                 <div className="relative flex grow">
                                                     <div className="z-10 flex grow gap-x-2.5 w-[300px] group">
                                                         <div className="h-full min-h-cell-md max-h-cell-md flex grow group transition-all w-[280px]">
@@ -225,7 +217,7 @@ const Models = () =>{
                                     </div>
                                     <div className="flex flex-col justify-end">
                                         <div className="!mt-8 lg:!mt-20 flex w-full flex-col">
-                                            <a className="sm:w-btn-md focus:outline-none disabled:cursor-not-allowed inline-block" target="_self" href="/embed">
+                                            <a className="sm:w-btn-md focus:outline-none disabled:cursor-not-allowed inline-block" target="_self" href="/">
                                                 <div className="relative flex grow">
                                                     <div className="z-10 flex grow group gap-x-2.5 w-[300px]">
                                                         <div className="h-full min-h-cell-md max-h-cell-md flex grow group transition-all w-[280px]">
@@ -288,7 +280,7 @@ const Models = () =>{
                                     </div>
                                     <div className="flex flex-col justify-end">
                                         <div className="!mt-8 lg:!mt-20 flex w-full flex-col">
-                                            <a className="sm:w-btn-md focus:outline-none disabled:cursor-not-allowed inline-block" target="_self" href="/rerank">
+                                            <a className="sm:w-btn-md focus:outline-none disabled:cursor-not-allowed inline-block" target="_self" href="/">
                                                 <div className="relative flex grow">
                                                     <div className="z-10 flex grow group gap-x-2.5 w-[300px]">
                                                         <div className="h-full min-h-cell-md max-h-cell-md flex grow group transition-all w-[280px]">

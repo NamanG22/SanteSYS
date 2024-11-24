@@ -1,5 +1,5 @@
-import Video from './Video';
-import HeadText from './HeadText';
+import Video from './../subComponents/hero/Video';
+import HeadText from './../subComponents/hero/HeadText';
 
 const Hero = () => {
     return (

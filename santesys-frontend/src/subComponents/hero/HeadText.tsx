@@ -30,7 +30,7 @@ const HeadText = ()=>{
                             className="sm:w-btn-md group focus:outline-none disabled:cursor-not-allowed inline-block" 
                             target="_self" 
                             data-fs-element="Marketing>Home>Hero>PrimaryCTA" 
-                            href="/contact-sales"
+                            href="/"
                         >
                             <div className="relative flex grow">
                                 <div className="z-10 flex grow gap-x-2.5 w-[300px]">
@@ -67,7 +67,7 @@ const HeadText = ()=>{
                             className="mt-3 sm:w-btn-md group focus:outline-none disabled:cursor-not-allowed inline-block" 
                             target="_blank" 
                             data-fs-element="Marketing>Home>Hero>CTA2" 
-                            href="#"
+                            href="/"
                         >
                             <div className="relative flex grow w-[300px]">
                                 <div className="z-10 flex grow gap-x-2.5">

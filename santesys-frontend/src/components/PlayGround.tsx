@@ -31,7 +31,7 @@ const PlayGround = () =>{
                                     <span className="text-xs lg:text-base font-body md:w-3/4 mb-6">
                                         <div className="[&amp;_a]:!inline portable-text--dark-mode portable-text-breaks">
                                             <p className="leading-[140%]"></p>
-                                            <p className="leading-[140%]">Our Generative AI and Advanced Retrieval models work seamlessly together for applications requiring RAG. It's easy to connect and retrieve information from documents and enterprise data sources to build more powerful AI applications.</p>
+                                            <p className="leading-[140%]">At SanteSYS, we harness India Stack through ABDM and ABHA IDs to revolutionize healthcare. This ecosystem enables secure, consent-driven sharing of medical records across hospitals, labs, and pharmacies, reducing wait times and delivering personalized care on a unified digital platform</p>
                                             <p className="leading-[140%]">
                                                 <br/>
                                                 <br/>
@@ -41,7 +41,7 @@ const PlayGround = () =>{
                                         </div>
                                     </span>
                                     <div className="mb-8 flex w-full flex-col">
-                                        <a rel="noopener noreferrer" className="sm:w-btn-md focus:outline-none disabled:cursor-not-allowed inline-block" target="_blank" href="https://dashboard.cohere.ai/welcome/register?__hstc=14363112.01113939d1ec4a035bf17f405a1c9714.1730039348131.1731932864669.1732032811642.14&amp;__hssc=14363112.1.1732032811642&amp;__hsfp=2437715757">
+                                        <a rel="noopener noreferrer" className="sm:w-btn-md focus:outline-none disabled:cursor-not-allowed inline-block" target="_blank" href="/">
                                             <div className="relative flex grow">
                                                 <div className="z-10 flex grow gap-x-2.5 group w-[300px]">
                                                     <div className="h-full min-h-cell-md max-h-cell-md flex grow group/cell transition-all w-[280px]">
@@ -50,7 +50,7 @@ const PlayGround = () =>{
                                                             <div className="z-10 w-full">
                                                                 <span className="px-0 justify-between flex w-full items-center transition-all">
                                                                     <span className="text-[16px] font-body uppercase">
-                                                                        <span>try the playground</span>
+                                                                        <span>Learn More</span>
                                                                         <br/>
                                                                     </span>
                                                                 </span>

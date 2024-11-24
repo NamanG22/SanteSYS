@@ -1,4 +1,5 @@
 import DeployBack from '../assets/images/deployBack.webp';
+import prescripto from '../assets/images/prescriptoLogo.png'
 
 const Deployment = ()=>{
     return(
@@ -52,22 +53,24 @@ const Deployment = ()=>{
                         <div className="flex flex-col justify-between">
                             <div className="relative z-content w-full flex w-full flex-col justify-end">
                                 <p className="text-xs lg:text-base font-body mb-5 uppercase lg:mb-3 mb-4 lg:mb-3">
-                                    <span>DEPLOYMENT OPTIONS</span>
+                                    <span>Our Product Suite
+                                    </span>
                                     <br/>
                                 </p>
-                                <h2 className="text-2xl md:text-3xl 2xl:text-4xl font-body !mb-8 md:w-1/2 lg:w-3/4 mb-3">
-                                    <span>Enterprise-grade AI deployment on any cloud or on-premises</span>
+                                <h2 className="text-2xl md:text-3xl 2xl:text-4xl font-body !mb-8 md:w-1/2 lg:w-full mb-3">
+                                    <span>Enterprise-grade healthcare solutions, seamlessly deployed on cloud or on-premises.
+                                    </span>
                                     <br/>
                                 </h2>
                                 <span className="text-xs lg:text-base font-body !mb-8 w-full md:w-1/2 lg:!mb-20 lg:w-2/3 mb-6">
                                     <div className="[&amp;_a]:!inline portable-text-breaks">
-                                        <p className="leading-[140%]">Only Cohere provides flexible and secure deployment options. Bring our models to your data.</p>
+                                        <p className="leading-[140%]">Only SanteSYS ensures effortless integration, maximizing efficiency and enhancing your healthcare operations.</p>
                                     </div>
                                 </span>
                             </div>
                             <div className="flex flex-col justify-end">
                                 <div className="flex w-full flex-col">
-                                    <a className="sm:w-btn-md focus:outline-none disabled:cursor-not-allowed inline-block" target="_self" href="/deployment-options">
+                                    <a className="sm:w-btn-md focus:outline-none disabled:cursor-not-allowed inline-block" target="_self" href="/">
                                         <div className="relative flex grow">
                                             <div className="z-10 flex grow gap-x-2.5 group w-[300px]">
                                                 <div className="h-full min-h-cell-md max-h-cell-md flex grow group/cell transition-all w-[280px]">
@@ -114,7 +117,7 @@ const Deployment = ()=>{
                             data-nimg="1" 
                             className="h-auto w-full object-contain motion-safe:opacity-0 motion-safe:animate-[fadeInSpot_0.2s_linear_forwards] aspect-square rounded-3xl transition duration-200 ease-in-out bg-marble-400" 
                             style={{color:'transparent'}} 
-                            src="https://cdn.sanity.io/images/rjtqmwfu/production/0adbf394439f4cd0ab8b5b3b6fe1da10c8099024-201x200.svg"/>
+                            src={prescripto}/>
                         </div>
                         <div>
                             <img 
