@@ -1,8 +1,41 @@
+import { useEffect, useState } from 'react';
+import { useInView } from 'react-intersection-observer';
 import MissionBack from '../assets/images/MissionBack.webp';
 
 const Mission = ()=>{
+    const { ref, inView } = useInView({
+        threshold: 0.5, // Trigger when 50% of the element is visible
+        triggerOnce: true, // Trigger only once
+      });
+
+      const [activeAnimations, setActiveAnimations] = useState([false, false, false, false]);
+
+
+      useEffect(() => {
+        if (inView) {
+          // Trigger animations sequentially based on their delay
+          const timeouts: NodeJS.Timeout[] = [];
+          [50, 650, 1250, 1850,2100,2700,3300,3800].forEach((delay, index) => {
+            timeouts.push(
+              setTimeout(() => {
+                setActiveAnimations((prev) => {
+                  const updated = [...prev];
+                  updated[index] = true;
+                  return updated;
+                });
+              }, delay)
+            );
+          });
+    
+          return () => {
+            // Clear timeouts if the component unmounts
+            timeouts.forEach(clearTimeout);
+          };
+        }
+      }, [inView]);
+
     return(
-        <section className="relative w-full relative">
+        <section className="relative w-full">
             <div className="absolute top-0 left-0 h-full w-full">
                 <img 
                 alt="Background image for aesthetic purposes" 
@@ -47,7 +80,9 @@ const Mission = ()=>{
                 src={MissionBack}/>
             </div>
             <div className="w-full relative z-content py-12 lg:py-16 2xl:py-26 max-w-full-screen mx-auto px-5 md:px-10 lg:px-12">
-                <div className="px-5 py-3 md:px-11 lg:px-24 lg:py-10">
+                <div
+                ref={ref} 
+                className="px-5 py-3 md:px-11 lg:px-24 lg:py-10">
                     <div className="flex items-center justify-between pb-10 md:pb-16 lg:pb-20 2xl:pb-24 px-[96.4px] pr-[256.4px]">
                         <p className="text-[24px] uppercase font-body  text-marble-200">
                             <span>Our Mission</span>
@@ -89,17 +124,23 @@ const Mission = ()=>{
                     </div>
                     <div className="pb-[68px] md:pb-[104px] lg:pb-32 2xl:pb-40 px-[10px]">
                         <div className="flex min-h-[84px] flex-col justify-center text-center md:min-h-[111px] lg:min-h-[216px]">
+                        <div>
+                            <h2
+                            className={`text-4xl lg:text-6xl 2xl:text-8xl justify-center font-variable flex text-marble-200 mobile-only:!text-3xl motion-safe:transition-all motion-safe:duration-700 transform ${
+                                activeAnimations[0] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+                            }`}
+                            style={{ animationDelay: '50ms' }}
+                            >
+                            Do whatever it takes
+                            </h2>
+                        </div>
                             <div>
                                 <h2 
-                                className="text-4xl lg:text-6xl 2xl:text-8xl justify-center font-variable flex text-marble-200 mobile-only:!text-3xl motion-safe:opacity-0 motion-safe:animate-fadeInUp" style={{ animationDelay: '50ms' }}
-                                // style="font-variation-settings:'cuts' 100, 'move' 100;font-variant-ligatures:common-ligatures"
-                                >
-                                    Do whatever it takes
-                                </h2>
-                            </div>
-                            <div>
-                                <h2 
-                                className="text-4xl lg:text-6xl 2xl:text-8xl justify-center font-variable flex text-marble-200 mobile-only:!text-3xl motion-safe:opacity-0 motion-safe:animate-fadeInUp" style={{ animationDelay: '650ms' }} 
+                                className={`text-4xl lg:text-6xl 2xl:text-8xl justify-center font-variable flex text-marble-200 mobile-only:!text-3xl motion-safe:transition-all motion-safe:duration-700 transform ${
+                                    activeAnimations[1]
+                                    ? 'opacity-100 translate-y-0' // Visible state
+                                    : 'opacity-0 translate-y-10' // Hidden state
+                                }`} style={{ animationDelay: '650ms' }} 
                                 // style="font-variation-settings:'cuts' 100, 'move' 100;font-variant-ligatures:common-ligatures"
                                 >
                                     To simplify healthcare
@@ -107,7 +148,11 @@ const Mission = ()=>{
                             </div>
                             <div>
                                 <h2 
-                                className="text-4xl lg:text-6xl 2xl:text-8xl justify-center font-variable flex text-marble-200 mobile-only:!text-3xl motion-safe:opacity-0 motion-safe:animate-fadeInUp" style={{ animationDelay: '1250ms' }}
+                                className={`text-4xl lg:text-6xl 2xl:text-8xl justify-center font-variable flex text-marble-200 mobile-only:!text-3xl motion-safe:transition-all motion-safe:duration-700 transform ${
+                                    activeAnimations[2]
+                                    ? 'opacity-100 translate-y-0' // Visible state
+                                    : 'opacity-0 translate-y-10' // Hidden state
+                                }`} style={{ animationDelay: '1250ms' }}
                                 // style="font-variation-settings:'cuts' 100, 'move' 100;font-variant-ligatures:common-ligatures"
                                 >
                                     enhance accessibility
@@ -115,7 +160,11 @@ const Mission = ()=>{
                             </div>
                             <div>
                                 <h2 
-                                className="text-4xl lg:text-6xl 2xl:text-8xl justify-center font-variable flex text-marble-200 mobile-only:!text-3xl motion-safe:opacity-0 motion-safe:animate-fadeInUp" style={{ animationDelay: '1850ms' }}
+                                className={`text-4xl lg:text-6xl 2xl:text-8xl justify-center font-variable flex text-marble-200 mobile-only:!text-3xl motion-safe:transition-all motion-safe:duration-700 transform ${
+                                    activeAnimations[3]
+                                    ? 'opacity-100 translate-y-0'
+                                    : 'opacity-0 translate-y-10'
+                                }`} style={{ animationDelay: '1850ms' }}
                                 // style="font-variation-settings:'cuts' 100, 'move' 100;font-variant-ligatures:common-ligatures"
                                 >
                                     prioritize care
@@ -130,7 +179,11 @@ const Mission = ()=>{
                         </div>
                     </div>
                     <div className="flex md:grid-cols-3 md:gap-12 2xl:gap-20 -mx-20">
-                        <div className="flex flex-row justify-center motion-safe:opacity-0 motion-safe:animate-fadeInUp w-1/4" style={{ animationDelay: '2100ms' }}>
+                        <div className={`flex flex-row justify-center w-1/4 motion-safe:transition-all motion-safe:duration-700 transform ${
+                                    activeAnimations[4]
+                                    ? 'opacity-100 translate-y-0'
+                                    : 'opacity-0 translate-y-10'
+                                }`} style={{ animationDelay: '2100ms' }}>
                             <h3 className="text-2xl uppercase font-body mb-4 pr-2 text-marble-200 md:mb-6">
                                 1.
                             </h3>
@@ -147,7 +200,11 @@ const Mission = ()=>{
                                 </p>
                             </div>
                         </div>
-                        <div className="flex flex-row motion-safe:opacity-0 motion-safe:animate-fadeInUp w-1/4" style={{ animationDelay: '2700ms' }}>
+                        <div className={`flex flex-row w-1/4 motion-safe:transition-all motion-safe:duration-700 transform ${
+                                    activeAnimations[5]
+                                    ? 'opacity-100 translate-y-0'
+                                    : 'opacity-0 translate-y-10'
+                                }`} style={{ animationDelay: '2700ms' }}>
                             <h3 className="text-2xl uppercase font-body mb-4 pr-2 text-marble-200 md:mb-6">
                                 2.
                             </h3>
@@ -162,7 +219,11 @@ const Mission = ()=>{
                                 </p>
                             </div>
                         </div>
-                        <div className="flex flex-row motion-safe:opacity-0 motion-safe:animate-fadeInUp w-1/4" style={{ animationDelay: '3300ms' }}>
+                        <div className={`flex flex-row w-1/4 motion-safe:transition-all motion-safe:duration-700 transform ${
+                                    activeAnimations[6]
+                                    ? 'opacity-100 translate-y-0'
+                                    : 'opacity-0 translate-y-10'
+                                }`} style={{ animationDelay: '3300ms' }}>
                             <h3 className="text-2xl uppercase font-body mb-4 pr-2 text-marble-200 md:mb-6">
                                 3.
                             </h3>
@@ -177,7 +238,11 @@ const Mission = ()=>{
                                 </p>
                             </div>
                         </div>
-                        <div className="flex flex-row motion-safe:opacity-0 motion-safe:animate-fadeInUp w-1/4" style={{ animationDelay: '3800ms' }}>
+                        <div className={`flex flex-row w-1/4 motion-safe:transition-all motion-safe:duration-700 transform ${
+                                    activeAnimations[7]
+                                    ? 'opacity-100 translate-y-0'
+                                    : 'opacity-0 translate-y-10'
+                                }`} style={{ animationDelay: '3800ms' }}>
                             <h3 className="text-2xl uppercase font-body mb-4 pr-2 text-marble-200 md:mb-6">
                                 4.
                             </h3>

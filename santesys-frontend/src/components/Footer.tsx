@@ -71,9 +71,6 @@ const Footer = ()=>{
                                     <li className="mb-3 flex justify-center"><a href="/blog">Blog</a></li>
                                     <li className="mb-3 flex justify-center"><a href="/research">Research</a></li>
                                     <li className="mb-3 flex justify-center"><a href="/careers">Careers</a></li>
-                                    <li className="mb-3 flex justify-center"><a href="/events">Events</a></li>
-                                    <li className="mb-3 flex justify-center"><a href="/newsroom">Newsroom</a></li>
-                                    <li className="mb-3 flex justify-center"><a href="/partners">Partners</a></li>
                                 </ul>
                                 <ul className="w-full">
                                     <li className="flex justify-center">
@@ -84,9 +81,6 @@ const Footer = ()=>{
                                                         <span>Trust Center</span>
                                                         <br/>
                                                     </span>
-                                                </span>
-                                                <span className="flex items-center duration-400 transition-all ease-in-out group-hover:pl-1 group-hover:pr-2 pl-3">
-                                                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
                                                 </span>
                                             </span>
                                         </a>

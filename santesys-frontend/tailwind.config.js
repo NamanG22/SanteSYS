@@ -57,7 +57,7 @@ module.exports = {
       colors: {
         onyx: '#0C1210',
         mushroom: {
-          50: '#f0e5d6',
+          50: '#f5f4f2',
           500: '#c2a174',
         },
         quartz: {
@@ -65,11 +65,13 @@ module.exports = {
         },
         volcanic: {
           900: '#212121',
+          800:'#424242'
         },
         marble:{
           100: '#f5f5f5',
           200: '#F3EDE8',
           300: '#eeeeee',
+          400: '#e0e0e0',
           500: '#bdbdbd'
         },
         coral:{

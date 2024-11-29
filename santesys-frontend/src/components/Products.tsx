@@ -1,9 +1,11 @@
 import DeployBack from '../assets/images/deployBack.webp';
 import prescripto from '../assets/images/prescriptoLogo.png'
 
-const Deployment = ()=>{
+const Products = ()=>{
     return(
-        <section className="relative w-full relative ">
+        <section 
+        id="product-section"
+        className="relative w-full">
             <div className="absolute top-0 left-0 h-full w-full">
                 <img 
                 alt="Background image for aesthetic purposes" 
@@ -191,4 +193,4 @@ const Deployment = ()=>{
     )
 }
 
-export default Deployment;
+export default Products;
