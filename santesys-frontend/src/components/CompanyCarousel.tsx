@@ -1,5 +1,5 @@
-import hospital from '../assets/svgs/Group.svg';
-import doctor from '../assets/svgs/Mask-group.svg'
+// import hospital from '../assets/svgs/Group.svg';
+// import doctor from '../assets/svgs/Mask-group.svg'
 const CompanyCarousel = ()=>{
     return(
         <section className="flex justify-center bg-volcanic-900 px-12">
