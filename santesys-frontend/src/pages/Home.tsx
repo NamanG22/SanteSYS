@@ -3,7 +3,7 @@ import CompanyCarousel from '../components/CompanyCarousel';
 import Models from '../components/Models';
 import PlayGround from '../components/PlayGround';
 import Products from '../components/Products';
-import Courses from '../components/Courses';
+// import Courses from '../components/Courses';
 import Mission from '../components/Mission';
 
 const Home = ()=>{
@@ -14,7 +14,7 @@ const Home = ()=>{
             <Models/>
             <PlayGround/>      
             <Products/>
-            <Courses/>
+            {/* <Courses/> */}
             <Mission/>
         </>
     )

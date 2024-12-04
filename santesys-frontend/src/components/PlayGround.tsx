@@ -12,7 +12,7 @@ const PlayGround = () =>{
                                             <div className="w-full pb-[100%] pb-[80%]"></div>
                                             <div className="absolute left-0 top-0 flex h-full w-full items-center overflow-visible">
                                                 <div className="flex h-full w-full flex-col">
-                                                    <img alt="" title="" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain motion-safe:opacity-0 motion-safe:animate-[fadeInSpot_0.2s_linear_forwards] !h-full" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/4c7a6d577e79c43f4e0415b3f56f943616dff916-647x531.svg"/>
+                                                    {/* <img alt="" title="" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain motion-safe:opacity-0 motion-safe:animate-[fadeInSpot_0.2s_linear_forwards] !h-full" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/4c7a6d577e79c43f4e0415b3f56f943616dff916-647x531.svg"/> */}
                                                 </div>
                                             </div>
                                         </div>

@@ -1,5 +1,6 @@
 import DeployBack from '../assets/images/deployBack.webp';
 import prescripto from '../assets/images/prescriptoLogo.png'
+import comingSoon from '../assets/images/Group-1.png'
 
 const Products = ()=>{
     return(
@@ -132,7 +133,7 @@ const Products = ()=>{
                             data-nimg="1" 
                             className="h-auto w-full object-contain motion-safe:opacity-0 motion-safe:animate-[fadeInSpot_0.2s_linear_forwards] aspect-square rounded-3xl transition duration-200 ease-in-out bg-marble-400" 
                             style={{color:'transparent'}} 
-                            src="https://cdn.sanity.io/images/rjtqmwfu/production/3121e36c6a2270a890e2721ecb40b9637fa7055f-201x200.svg"/>
+                            src={comingSoon}/>
                         </div>
                         <div>
                             <img 
@@ -145,7 +146,7 @@ const Products = ()=>{
                             data-nimg="1" 
                             className="h-auto w-full object-contain motion-safe:opacity-0 motion-safe:animate-[fadeInSpot_0.2s_linear_forwards] aspect-square rounded-3xl transition duration-200 ease-in-out bg-marble-400" 
                             style={{color:'transparent'}} 
-                            src="https://cdn.sanity.io/images/rjtqmwfu/production/643f6e32aa0ce3ac6540bcbccb5274a0a4af1ba0-201x200.svg"/>
+                            src={comingSoon}/>
                         </div>
                         <div>
                             <img 
@@ -158,7 +159,7 @@ const Products = ()=>{
                             data-nimg="1" 
                             className="h-auto w-full object-contain motion-safe:opacity-0 motion-safe:animate-[fadeInSpot_0.2s_linear_forwards] aspect-square rounded-3xl transition duration-200 ease-in-out bg-marble-400" 
                             style={{color:'transparent'}} 
-                            src="https://cdn.sanity.io/images/rjtqmwfu/production/53437df4220d35e45d5a0a66fbde6110366bf0e2-201x200.svg"/>
+                            src={comingSoon}/>
                         </div>
                         <div>
                             <img 
@@ -171,7 +172,7 @@ const Products = ()=>{
                             data-nimg="1" 
                             className="h-auto w-full object-contain motion-safe:opacity-0 motion-safe:animate-[fadeInSpot_0.2s_linear_forwards] aspect-square rounded-3xl transition duration-200 ease-in-out bg-marble-400" 
                             style={{color:'transparent'}} 
-                            src="https://cdn.sanity.io/images/rjtqmwfu/production/1455da306f9f50dc2b28eb81ef080f7c1c8b8e6d-201x200.svg"/>
+                            src={comingSoon}/>
                         </div>
                         <div>
                             <img 
@@ -184,7 +185,7 @@ const Products = ()=>{
                             data-nimg="1" 
                             className="h-auto w-full object-contain motion-safe:opacity-0 motion-safe:animate-[fadeInSpot_0.2s_linear_forwards] aspect-square rounded-3xl transition duration-200 ease-in-out bg-marble-400" 
                             style={{color:'transparent'}} 
-                            src="https://cdn.sanity.io/images/rjtqmwfu/production/870d461f4de551ead02c43531936113310be9389-201x200.svg"/>
+                            src={comingSoon}/>
                         </div>
                     </div>
                 </div>

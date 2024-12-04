@@ -1,4 +1,4 @@
-import videoBack from '../../assets/videos/dna-back.mp4';
+import videoBack from '../../assets/videos/home-new-hero-cells-min.mp4';
 
 const Video = ()=>{
     return(

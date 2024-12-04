@@ -13,13 +13,13 @@ const CompanyCarousel = ()=>{
                     <div style={{minWidth:'4840px'}} className="flex h-8 animate-scroll items-center justify-around lg:h-10">
                         <div className="flex h-8 items-center md:p-1 lg:h-10 lg:px-2 lg:py-2">
                             {/* <img alt="Hasura Logo" title="" fetchPriority="high" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain !h-10" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/7625097eb1d0ff87fe14bd943707a7a59a70932f-135x40.svg"/> */}
-                            <img src={hospital} alt="" className="w-full h-10"/>
+                            {/* <img src={hospital} alt="" className="w-full h-10"/> */}
                             <span className="text-white ml-2 font-bold text-xl">Hospital</span>
                         </div>
                         <div className="flex h-8 items-center md:p-1 lg:h-10 lg:px-2 lg:py-2">
                             {/* <img alt="Salesforce Logo" title="" fetchPriority="high" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain !h-10" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/e14dfde7711f669b6ac8b79bb24972acf7f72a71-127x40.svg"/> */}
-                            <img src={doctor} alt="" className="w-full h-12"/>
-                            <span className="text-white ml-2 font-bold text-xl">Dcotors</span>
+                            {/* <img src={doctor} alt="" className="w-full h-12"/> */}
+                            <span className="text-white ml-2 font-bold text-xl">Doctors</span>
                         </div>
                         <div className="flex h-8 items-center md:p-1 lg:h-10 lg:px-2 lg:py-2">
                             {/* <img alt="Salesforce Logo" title="" fetchPriority="high" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain !h-10" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/e14dfde7711f669b6ac8b79bb24972acf7f72a71-127x40.svg"/> */}
@@ -39,13 +39,13 @@ const CompanyCarousel = ()=>{
                         </div>
                         <div className="flex h-8 items-center md:p-1 lg:h-10 lg:px-2 lg:py-2">
                             {/* <img alt="Hasura Logo" title="" fetchPriority="high" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain !h-10" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/7625097eb1d0ff87fe14bd943707a7a59a70932f-135x40.svg"/> */}
-                            <img src={hospital} alt="" className="w-full h-10"/>
+                            {/* <img src={hospital} alt="" className="w-full h-10"/> */}
                             <span className="text-white ml-2 font-bold text-xl">Hospital</span>
                         </div>
                         <div className="flex h-8 items-center md:p-1 lg:h-10 lg:px-2 lg:py-2">
                             {/* <img alt="Salesforce Logo" title="" fetchPriority="high" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain !h-10" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/e14dfde7711f669b6ac8b79bb24972acf7f72a71-127x40.svg"/> */}
-                            <img src={doctor} alt="" className="w-full h-12"/>
-                            <span className="text-white ml-2 font-bold text-xl">Dcotors</span>
+                            {/* <img src={doctor} alt="" className="w-full h-12"/> */}
+                            <span className="text-white ml-2 font-bold text-xl">Doctors</span>
                         </div>
                         <div className="flex h-8 items-center md:p-1 lg:h-10 lg:px-2 lg:py-2">
                             {/* <img alt="Salesforce Logo" title="" fetchPriority="high" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain !h-10" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/e14dfde7711f669b6ac8b79bb24972acf7f72a71-127x40.svg"/> */}
@@ -65,13 +65,13 @@ const CompanyCarousel = ()=>{
                         </div>
                         <div className="flex h-8 items-center md:p-1 lg:h-10 lg:px-2 lg:py-2">
                             {/* <img alt="Hasura Logo" title="" fetchPriority="high" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain !h-10" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/7625097eb1d0ff87fe14bd943707a7a59a70932f-135x40.svg"/> */}
-                            <img src={hospital} alt="" className="w-full h-10"/>
+                            {/* <img src={hospital} alt="" className="w-full h-10"/> */}
                             <span className="text-white ml-2 font-bold text-xl">Hospital</span>
                         </div>
                         <div className="flex h-8 items-center md:p-1 lg:h-10 lg:px-2 lg:py-2">
                             {/* <img alt="Salesforce Logo" title="" fetchPriority="high" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain !h-10" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/e14dfde7711f669b6ac8b79bb24972acf7f72a71-127x40.svg"/> */}
-                            <img src={doctor} alt="" className="w-full h-12"/>
-                            <span className="text-white ml-2 font-bold text-xl">Dcotors</span>
+                            {/* <img src={doctor} alt="" className="w-full h-12"/> */}
+                            <span className="text-white ml-2 font-bold text-xl">Doctors</span>
                         </div>
                         <div className="flex h-8 items-center md:p-1 lg:h-10 lg:px-2 lg:py-2">
                             {/* <img alt="Salesforce Logo" title="" fetchPriority="high" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain !h-10" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/e14dfde7711f669b6ac8b79bb24972acf7f72a71-127x40.svg"/> */}
@@ -150,13 +150,65 @@ const CompanyCarousel = ()=>{
                     <div style={{minWidth:'4840px'}} className="flex h-8 items-center animate-scroll justify-around lg:h-10">
                         <div className="flex h-8 items-center md:p-1 lg:h-10 lg:px-2 lg:py-2">
                             {/* <img alt="Hasura Logo" title="" fetchPriority="high" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain !h-10" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/7625097eb1d0ff87fe14bd943707a7a59a70932f-135x40.svg"/> */}
-                            <img src={hospital} alt="" className="w-full h-10"/>
+                            {/* <img src={hospital} alt="" className="w-full h-10"/> */}
                             <span className="text-white ml-2 font-bold text-xl">Hospital</span>
                         </div>
                         <div className="flex h-8 items-center md:p-1 lg:h-10 lg:px-2 lg:py-2">
                             {/* <img alt="Salesforce Logo" title="" fetchPriority="high" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain !h-10" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/e14dfde7711f669b6ac8b79bb24972acf7f72a71-127x40.svg"/> */}
-                            <img src={doctor} alt="" className="w-full h-12"/>
-                            <span className="text-white ml-2 font-bold text-xl">Dcotors</span>
+                            {/* <img src={doctor} alt="" className="w-full h-12"/> */}
+                            <span className="text-white ml-2 font-bold text-xl">Doctors</span>
+                        </div>
+                        <div className="flex h-8 items-center md:p-1 lg:h-10 lg:px-2 lg:py-2">
+                            {/* <img alt="Salesforce Logo" title="" fetchPriority="high" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain !h-10" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/e14dfde7711f669b6ac8b79bb24972acf7f72a71-127x40.svg"/> */}
+                            <span className="text-white ml-2 font-bold text-xl">Nurses</span>
+                        </div>
+                        <div className="flex h-8 items-center md:p-1 lg:h-10 lg:px-2 lg:py-2">
+                            {/* <img alt="Salesforce Logo" title="" fetchPriority="high" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain !h-10" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/e14dfde7711f669b6ac8b79bb24972acf7f72a71-127x40.svg"/> */}
+                            <span className="text-white ml-2 font-bold text-xl">Patients</span>
+                        </div>
+                        <div className="flex h-8 items-center md:p-1 lg:h-10 lg:px-2 lg:py-2">
+                            {/* <img alt="Salesforce Logo" title="" fetchPriority="high" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain !h-10" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/e14dfde7711f669b6ac8b79bb24972acf7f72a71-127x40.svg"/> */}
+                            <span className="text-white ml-2 font-bold text-xl">Pharmacies</span>
+                        </div>
+                        <div className="flex h-8 items-center md:p-1 lg:h-10 lg:px-2 lg:py-2">
+                            {/* <img alt="Salesforce Logo" title="" fetchPriority="high" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain !h-10" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/e14dfde7711f669b6ac8b79bb24972acf7f72a71-127x40.svg"/> */}
+                            <span className="text-white ml-2 font-bold text-xl">Laboratories</span>
+                        </div>
+                        <div className="flex h-8 items-center md:p-1 lg:h-10 lg:px-2 lg:py-2">
+                            {/* <img alt="Hasura Logo" title="" fetchPriority="high" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain !h-10" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/7625097eb1d0ff87fe14bd943707a7a59a70932f-135x40.svg"/> */}
+                            {/* <img src={hospital} alt="" className="w-full h-10"/> */}
+                            <span className="text-white ml-2 font-bold text-xl">Hospital</span>
+                        </div>
+                        <div className="flex h-8 items-center md:p-1 lg:h-10 lg:px-2 lg:py-2">
+                            {/* <img alt="Salesforce Logo" title="" fetchPriority="high" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain !h-10" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/e14dfde7711f669b6ac8b79bb24972acf7f72a71-127x40.svg"/> */}
+                            {/* <img src={doctor} alt="" className="w-full h-12"/> */}
+                            <span className="text-white ml-2 font-bold text-xl">Doctors</span>
+                        </div>
+                        <div className="flex h-8 items-center md:p-1 lg:h-10 lg:px-2 lg:py-2">
+                            {/* <img alt="Salesforce Logo" title="" fetchPriority="high" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain !h-10" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/e14dfde7711f669b6ac8b79bb24972acf7f72a71-127x40.svg"/> */}
+                            <span className="text-white ml-2 font-bold text-xl">Nurses</span>
+                        </div>
+                        <div className="flex h-8 items-center md:p-1 lg:h-10 lg:px-2 lg:py-2">
+                            {/* <img alt="Salesforce Logo" title="" fetchPriority="high" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain !h-10" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/e14dfde7711f669b6ac8b79bb24972acf7f72a71-127x40.svg"/> */}
+                            <span className="text-white ml-2 font-bold text-xl">Patients</span>
+                        </div>
+                        <div className="flex h-8 items-center md:p-1 lg:h-10 lg:px-2 lg:py-2">
+                            {/* <img alt="Salesforce Logo" title="" fetchPriority="high" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain !h-10" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/e14dfde7711f669b6ac8b79bb24972acf7f72a71-127x40.svg"/> */}
+                            <span className="text-white ml-2 font-bold text-xl">Pharmacies</span>
+                        </div>
+                        <div className="flex h-8 items-center md:p-1 lg:h-10 lg:px-2 lg:py-2">
+                            {/* <img alt="Salesforce Logo" title="" fetchPriority="high" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain !h-10" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/e14dfde7711f669b6ac8b79bb24972acf7f72a71-127x40.svg"/> */}
+                            <span className="text-white ml-2 font-bold text-xl">Laboratories</span>
+                        </div>
+                        <div className="flex h-8 items-center md:p-1 lg:h-10 lg:px-2 lg:py-2">
+                            {/* <img alt="Hasura Logo" title="" fetchPriority="high" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain !h-10" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/7625097eb1d0ff87fe14bd943707a7a59a70932f-135x40.svg"/> */}
+                            {/* <img src={hospital} alt="" className="w-full h-10"/> */}
+                            <span className="text-white ml-2 font-bold text-xl">Hospital</span>
+                        </div>
+                        <div className="flex h-8 items-center md:p-1 lg:h-10 lg:px-2 lg:py-2">
+                            {/* <img alt="Salesforce Logo" title="" fetchPriority="high" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain !h-10" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/e14dfde7711f669b6ac8b79bb24972acf7f72a71-127x40.svg"/> */}
+                            {/* <img src={doctor} alt="" className="w-full h-12"/> */}
+                            <span className="text-white ml-2 font-bold text-xl">Doctors</span>
                         </div>
                         <div className="flex h-8 items-center md:p-1 lg:h-10 lg:px-2 lg:py-2">
                             {/* <img alt="Salesforce Logo" title="" fetchPriority="high" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain !h-10" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/e14dfde7711f669b6ac8b79bb24972acf7f72a71-127x40.svg"/> */}

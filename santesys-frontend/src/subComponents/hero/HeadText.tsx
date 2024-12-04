@@ -1,6 +1,6 @@
 const HeadText = ()=>{
     return(
-        <div className="w-full relative z-content py-12 lg:py-16 2xl:py-26 max-w-full-screen mx-auto px-5 md:px-10 lg:px-24 pt-24 lg:pt-32 text-white">
+        <div className="w-full relative z-content py-12 lg:py-16 2xl:py-26 max-w-full-screen mx-auto px-5 md:px-10 lg:px-24 pt-24 lg:pt-32">
             <div className="flex flex-col justify-between">
                 <div className="mb-[340px] md:mb-8 flex w-full flex-col justify-end">
                     <h1 className="text-6xl 2xl:text-8xl mb-[14px] md:!mb-12 tracking-tighter parkinsans-headText"
