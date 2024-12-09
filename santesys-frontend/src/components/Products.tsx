@@ -1,8 +1,14 @@
 import DeployBack from '../assets/images/deployBack.webp';
 import prescripto from '../assets/images/prescriptoLogo.png'
 import comingSoon from '../assets/images/Group-1.png'
+import { useState } from 'react';
 
 const Products = ()=>{
+    const defaultProductHead = "Enterprise-grade healthcare solutions, seamlessly deployed on cloud or on-premises.";
+    const defaultProductSub = "Only SanteSYS ensures effortless integration, maximizing efficiency and enhancing your healthcare operations.";
+    const [productHead,setProductHead] = useState(defaultProductHead);
+    const [productSub,setProductSub] = useState(defaultProductSub);
+
     return(
         <section 
         id="product-section"
@@ -61,13 +67,13 @@ const Products = ()=>{
                                     <br/>
                                 </p>
                                 <h2 className="text-2xl md:text-3xl 2xl:text-4xl font-body !mb-8 md:w-1/2 lg:w-full mb-3">
-                                    <span>Enterprise-grade healthcare solutions, seamlessly deployed on cloud or on-premises.
+                                    <span>{productHead}
                                     </span>
                                     <br/>
                                 </h2>
                                 <span className="text-xs lg:text-base font-body !mb-8 w-full md:w-1/2 lg:!mb-20 lg:w-2/3 mb-6">
                                     <div className="[&amp;_a]:!inline portable-text-breaks">
-                                        <p className="leading-[140%]">Only SanteSYS ensures effortless integration, maximizing efficiency and enhancing your healthcare operations.</p>
+                                        <p className="leading-[140%]">{productSub}</p>
                                     </div>
                                 </span>
                             </div>
@@ -109,7 +115,12 @@ const Products = ()=>{
                         </div>
                     </div>
                     <div className="grid w-full items-center gap-4 px-6 pt-12 md:grid-cols-3 md:gap-6 md:px-12 md:pt-16 lg:w-7/12 lg:gap-8 lg:px-0 lg:pt-0  grid-cols-2 ">
-                        <div>
+                        <div 
+                        onMouseEnter={()=>{
+                            setProductHead('Prescripto');
+                            setProductSub('A digital pad to digitalize prescriptions at point 0.')}
+                        }
+                        onMouseLeave={()=>setProductHead(defaultProductHead)}>
                             <img 
                             alt="Image of Container" 
                             title="" 
