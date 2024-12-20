@@ -67,16 +67,16 @@ const products = [
             <p className=""><span className="font-bold text-xl">Benefit: </span>Get your medicines without stepping out, ensuring convenience and care.</p>
         </>),
     },
-    { id: 6, name: "Tele-consultation", image: comingSoon, descriptionHead:"A digital pad to digitalize prescriptions at point 0.", description:
+    { id: 6, name: "Tele-consultation", image: comingSoon, descriptionHead:"Care from Anywhere, Anytime.", description:
         (<>
-            'A tablet-based solution for digital prescriptions, allowing doctors to access patient histories and share information seamlessly.'
+            <p>Empower patients to consult with healthcare professionals remotely through secure and seamless video calls.  </p>
             <ul className="list-disc my-2">
-                <li>Write and share prescriptions digitally.</li>
-                <li>Access a patient's complete medical history, including past treatments and reports.</li>
+                <li>On-demand virtual consultations with licensed doctors.</li>
+                <li>Secure video, audio, and chat options.</li>
                 <li>Collaborate with other doctors to discuss cases securely.</li>
-                <li>Intuitive interface optimized for tablet usage.</li>
+                <li>Digital prescriptions sent directly to patients.</li>
             </ul>
-            <p className=""><span className="font-bold text-xl">Benefit: </span>Reduce errors, improve patient satisfaction, and save time.</p>
+            <p className=""><span className="font-bold text-xl">Benefit: </span>Eliminates the need for physical visits, saving time while ensuring expert medical advice from the comfort of home.</p>
 
         </>),
     },
