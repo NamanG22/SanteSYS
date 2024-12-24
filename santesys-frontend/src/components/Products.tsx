@@ -1,7 +1,11 @@
 import DeployBack from '../assets/images/deployBack.webp';
 import prescripto from '../assets/images/prescriptoLogo.png'
 import comingSoon from '../assets/images/Group-1.png'
-import quickQueue from '../assets/images/individuality-concept-silhouettes.jpg'
+import quickQueue from '../assets/images/QuickQUE.png'
+import mediMove from '../assets/images/Medimove.jpeg.jpg'
+import reporto from '../assets/images/Reporto.png'
+import carePlus from '../assets/images/carePlus.jpg'
+
 
 import { useState } from 'react';
 
@@ -30,7 +34,7 @@ const products = [
             <p className=""><span className="font-bold text-xl">Benefit: </span>Reduce wait times and enhance the patient experience.</p>
         </>),
     },
-    { id: 3, name: "Reporto", image: comingSoon, descriptionHead:"Your reports, anytime, anywhere.", description:
+    { id: 3, name: "Reporto", image: reporto, descriptionHead:"Your reports, anytime, anywhere.", description:
         (<>
             <p>'Reporto is your one-stop solution for accessing diagnostic test results and medical reports.</p>
             <ul className="list-disc my-2">
@@ -42,7 +46,7 @@ const products = [
             <p className=""><span className="font-bold text-xl">Benefit: </span>No more misplaced reports; instant, secure access to your medical data.</p>
         </>),
     },
-    { id: 4, name: "Care+", image: comingSoon, descriptionHead:"Personalized care, redefined.", description:
+    { id: 4, name: "Care+", image: carePlus, descriptionHead:"Personalized care, redefined.", description:
         (<>
             <p>Care+ combines the power of AI to offer personalized healthcare solutions tailored to your needs.</p>
             <ul className="list-disc my-2">
@@ -55,7 +59,7 @@ const products = [
 
         </>),
     },
-    { id: 5, name: "MediMove", image: comingSoon, descriptionHead:"Medicines delivered, swiftly and safely.", description:
+    { id: 5, name: "MediMove", image: mediMove, descriptionHead:"Medicines delivered, swiftly and safely.", description:
         (<>
             <p>MediMove is your trusted partner for fast and reliable medicine delivery services.</p>
             <ul className="list-disc my-2">
