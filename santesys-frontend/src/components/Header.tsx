@@ -173,8 +173,8 @@ const Header = () => {
                                     </div>
                                 </button>
                             </a>
-                            <button aria-label="close" type="button" data-headlessui-state="open">
-                                <IoIosClose className="icon-default icon-close w-full h-7"/>
+                            <button aria-label="close" type="button" onClick={toggleMenu} data-headlessui-state="open">
+                                <IoIosClose className="icon-default icon-close text-icon-sm"/>
                             </button>
                         </div>
                         <ul className="flex flex-col items-center border-marble-400 [&amp;>*]:border-b">
@@ -211,7 +211,7 @@ const Header = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="flex flex-col border-t border-marble-400 p-5">
+                    <div className="flex border-t border-marble-400 p-5 justify-center">
                         <div className="flex w-full flex-col">
                             <a rel="noopener noreferrer" className="focus:outline-none disabled:cursor-not-allowed inline-block" target="_blank" data-fs-element="Marketing>Nav>Try now" href="https://dashboard.cohere.ai/welcome/register">
                                 <div className="relative flex grow">
@@ -223,7 +223,6 @@ const Header = () => {
                                                     <span className="px-0 justify-between flex w-full items-center transition-all">
                                                         <span className="text-[14px] font-body uppercase">
                                                             <span>Try now</span>
-                                                            <br/>
                                                         </span>
                                                     </span>
                                                 </div>

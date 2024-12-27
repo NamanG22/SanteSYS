@@ -52,10 +52,10 @@ const Models = () =>{
                     />
             </div>
             <div className="w-full relative z-content pb-12 lg:pb-16 2xl:pb-26 max-w-full-screen mx-auto px-5 md:px-10 lg:px-12">
-                <div className="flex flex-col gap-4 px-[96.4px]">
+                <div className="flex flex-col gap-4 lg:px-20">
                     <div className="w-full z-content max-w-full-screen rounded-3xl relative px-5 py-10 md:px-11 md:py-11 lg:px-28 bg-gradient-to-b lg:!bg-gradient-to-r lg:py-20 2xl:py-24 my-16 flex self-center">
                         <div className="relative flex flex-col gap-y-8 md:gap-y-14 lg:items-center lg:gap-x-20 lg:flex-row xl:gap-x-28">
-                            <div className="sm:w-3/4 xl:w-[100%] lg:w-[70%] space-y-16">
+                            <div className="sm:w-3/4 xl:w-[100%] lg:w-[70%] space-y-16 mx-auto">
                                 <div className="mb-4 flex items-center gap-2 md:gap-3 md-only:mb-3 justify-start">
                                     <p className="text-[16px] lg:text-[24px] montserrat-vision uppercase">
                                         <span>Our Vision</span>
@@ -73,7 +73,7 @@ const Models = () =>{
                                         src="https://cdn.sanity.io/images/rjtqmwfu/production/4ef2d29439c7ab799af033f583a7f04543f91ae8-16x16.svg"
                                     /> */}
                                 </div>
-                                <div className="flex flex-col justify-between">
+                                <div className="flex flex-col justify-center">
                                     <div className="flex w-full justify-center ">
                                         <h2 className="text-2xl md:text-3xl 2xl:text-4xl font-body !mb-8 mb-3 text-center w-[75%]">
                                             <span>Our vision is to enable seamless collaboration among all healthcare stakeholders—hospitals, nurses, pharmacies, patients, and more—while providing real-time, personalized care through wearables and AI-Driven insights.</span>

@@ -2,13 +2,8 @@ const HeadText = ()=>{
     return(
         <div className="w-full relative z-content py-12 lg:py-16 2xl:py-26 max-w-full-screen mx-auto px-5 md:px-10 lg:px-24 pt-24 lg:pt-32">
             <div className="flex flex-col justify-between">
-                <div className="mb-[340px] md:mb-8 flex w-full flex-col justify-end">
-                    <h1 className="text-6xl 2xl:text-8xl mb-[14px] md:!mb-12 tracking-tighter parkinsans-headText"
-                        // style={{
-                        //     fontVariationSettings: "'cuts' 100, 'move' 100",
-                        //     fontVariantLigatures: "common-ligatures",
-                        // }}
-                    >
+                <div className="mb-[10px] md:mb-8 flex w-full flex-col justify-end">
+                    <h1 className="text-6xl 2xl:text-8xl mb-[14px] md:!mb-12 tracking-tighter parkinsans-headText">
                         <span className="block mb-4">The Integrated</span>
                         <span className="block mb-4">Health Ecosystem</span>
                         <span>for Smarter Care</span>
@@ -32,8 +27,8 @@ const HeadText = ()=>{
                             data-fs-element="Marketing>Home>Hero>PrimaryCTA" 
                             href="/"
                         >
-                            <div className="relative flex grow">
-                                <div className="z-10 flex grow gap-x-2.5 w-[300px]">
+                            <div className="relative flex grow w-[300px]">
+                                <div className="z-10 flex grow gap-x-2.5 w-[200px] ">
                                     <div className="h-full min-h-cell-md max-h-cell-md flex grow group transition-all w-[280px] group-hover:w-[260px]">
                                         <span className="bg-black h-full min-h-cell-md max-h-cell-md transition-all bg-clip-padding origin-top-right -mr-0.5 w-3 rounded-l-[6px] rounded-r-none border-transparent"></span>
                                         <div className="bg-black text-white h-full min-h-cell-md max-h-cell-md truncate flex grow justify-between items-center transition-colors bg-clip-padding">
