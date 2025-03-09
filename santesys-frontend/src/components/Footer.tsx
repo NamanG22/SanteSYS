@@ -108,7 +108,7 @@ const Footer = ()=>{
                         </div>
                     </div>
                     <div className="relative mt-12 w-full lg:mt-20">
-                        <img alt="Really big Cohere Logo" title="" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain motion-safe:opacity-0 motion-safe:animate-fadeInSpot h-auto w-full" style={{color:'transparent'}} src={logo}/>
+                        <img alt="Really big Cohere Logo" title="" loading="lazy" width="0" height="0" decoding="async" className="h-auto w-full object-contain motion-safe:opacity-0 motion-safe:animate-fadeInSpot h-auto w-full" style={{color:'transparent'}} src={logo}/>
                         {/* <LogoAnimation/> */}
                     </div>
                     <div className="my-8 border-t border-t-volcanic-800"></div>

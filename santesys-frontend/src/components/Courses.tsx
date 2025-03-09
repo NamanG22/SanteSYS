@@ -17,7 +17,7 @@ const Courses = ()=>{
                                 <div className="flex w-full max-w-[424px] !text-marble-100 flex-col">
                                     <div className="flex justify-center overflow-hidden rounded-lg transition-transform duration-300 ease-in-out hover:scale-[1.02] aspect-[2/1] mb-5">
                                         <a href="/" target="_blank" rel="noreferrer" className="w-full">
-                                            <img alt="Featured image for article" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" className="h-full w-full object-cover rounded-lg" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/5c1f86ba769235354f93a421eeb871f0d2a52e1b-424x212.svg"/>
+                                            <img alt="Featured image for article" loading="lazy" width="0" height="0" decoding="async" className="h-full w-full object-cover rounded-lg" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/5c1f86ba769235354f93a421eeb871f0d2a52e1b-424x212.svg"/>
                                         </a>
                                     </div>
                                     <div className="flex w-full flex-col gap-y-2 md:gap-y-5">
@@ -55,7 +55,7 @@ const Courses = ()=>{
                                 <div className="flex w-full max-w-[424px] !text-marble-100 flex-col">
                                     <div className="flex justify-center overflow-hidden rounded-lg transition-transform duration-300 ease-in-out hover:scale-[1.02] aspect-[2/1] mb-5">
                                         <a href="/" target="_blank" rel="noreferrer" className="w-full">
-                                            <img alt="Featured image for article" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" className="h-full w-full object-cover rounded-lg" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/a2a06112e210ab59350f98cfdb11067b7d56e588-424x212.svg"/>
+                                            <img alt="Featured image for article" loading="lazy" width="0" height="0" decoding="async" className="h-full w-full object-cover rounded-lg" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/a2a06112e210ab59350f98cfdb11067b7d56e588-424x212.svg"/>
                                         </a>
                                     </div>
                                     <div className="flex w-full flex-col gap-y-2 md:gap-y-5">
@@ -93,7 +93,7 @@ const Courses = ()=>{
                                 <div className="flex w-full max-w-[424px] !text-marble-100 flex-col">
                                     <div className="flex justify-center overflow-hidden rounded-lg transition-transform duration-300 ease-in-out hover:scale-[1.02] aspect-[2/1] mb-5">
                                         <a href="/" target="_blank" rel="noreferrer" className="w-full">
-                                            <img alt="Featured image for article" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" className="h-full w-full object-cover rounded-lg" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/48866e4b00604442d89ba0911fe6b0d62815d68b-424x212.svg"/>
+                                            <img alt="Featured image for article" loading="lazy" width="0" height="0" decoding="async" className="h-full w-full object-cover rounded-lg" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/48866e4b00604442d89ba0911fe6b0d62815d68b-424x212.svg"/>
                                         </a>
                                     </div>
                                     <div className="flex w-full flex-col gap-y-2 md:gap-y-5">

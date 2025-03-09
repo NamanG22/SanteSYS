@@ -44,7 +44,7 @@ const Mission = ()=>{
                 width="0" 
                 height="0" 
                 decoding="async" 
-                data-nimg="1" 
+                
                 className="h-auto w-full object-contain hidden !h-full !object-cover object-center lg:block z-background" 
                 style={{color:'transparent'}} 
                 sizes="100vw" 
@@ -59,7 +59,7 @@ const Mission = ()=>{
                 width="0" 
                 height="0" 
                 decoding="async" 
-                data-nimg="1" 
+                
                 className="h-auto w-full object-contain hidden !h-full !object-cover object-center sm:block lg:hidden z-background" 
                 style={{color:'transparent'}} 
                 sizes="100vw" 
@@ -72,7 +72,7 @@ const Mission = ()=>{
                 width="0" 
                 height="0" 
                 decoding="async" 
-                data-nimg="1" 
+                
                 className="h-auto w-full object-contain block !h-full !object-cover object-center sm:hidden z-background" 
                 style={{color:'transparent'}} 
                 sizes="100vw" 

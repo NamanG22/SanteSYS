@@ -40,7 +40,7 @@ const Header = () => {
                     <div className="text-volcanic-900 border-mushroom-500 bg-mushroom-50 h-full min-h-cell-md max-h-cell-md flex grow relative transition-all border-b border-t">
                         <div className="z-10 flex w-full items-center justify-between">
                             <ul className="z-30 h-full flex-1 flex-row items-center gap-x-10 px-8 xl:flex">
-                                <li className="z-nav h-full w-auto px-0 py-0.5 2xl:relative " data-headlessui-state="">
+                                <li className="z-nav h-full w-auto px-0 py-0.5 2xl:relative ">
                                     <Link 
                                         to="product-section" 
                                         smooth={true} 
@@ -49,7 +49,7 @@ const Header = () => {
                                         spy={true}
                                         activeClass="active"
                                         >
-                                        <button className="group w-full cursor-pointer h-full relative focus:outline-none text-[14px] uppercase tracking-[0.08em] flex flex-row-reverse items-center justify-between xl:flex-row xl:justify-center before:content-[''] before:absolute before:-bottom-3 before:w-full before:h-3" type="button" aria-expanded="false" data-headlessui-state="" id="headlessui-popover-button-:r2q:">
+                                        <button className="group w-full cursor-pointer h-full relative focus:outline-none text-[14px] uppercase tracking-[0.08em] flex flex-row-reverse items-center justify-between xl:flex-row xl:justify-center before:content-[''] before:absolute before:-bottom-3 before:w-full before:h-3" type="button" aria-expanded="false" id="headlessui-popover-button-:r2q:">
                                             <div className="transition-colors duration-100 ease-in-out bg-transparent mb-[1px] h-[9px] w-[9px] rounded-full xl:mr-1.5 border border-volcanic-900 group-hover:bg-coral-500 group-hover:border-coral-500">
                                             </div>
                                             Products
@@ -71,20 +71,20 @@ const Header = () => {
                                     borderWidth: '0px', 
                                     display: 'none'}}>
                                 </div>
-                                <li className="z-nav h-full w-auto px-0 py-0.5 2xl:relative" data-headlessui-state="">
-                                    <button className="group w-full cursor-pointer h-full relative focus:outline-none text-[14px] uppercase tracking-[0.08em] flex flex-row-reverse items-center justify-between xl:flex-row xl:justify-center before:content-[''] before:absolute before:-bottom-3 before:w-full before:h-3" type="button" aria-expanded="false" data-headlessui-state="" id="headlessui-popover-button-:r2s:">
+                                {/* <li className="z-nav h-full w-auto px-0 py-0.5 2xl:relative">
+                                    <button className="group w-full cursor-pointer h-full relative focus:outline-none text-[14px] uppercase tracking-[0.08em] flex flex-row-reverse items-center justify-between xl:flex-row xl:justify-center before:content-[''] before:absolute before:-bottom-3 before:w-full before:h-3" type="button" aria-expanded="false" id="headlessui-popover-button-:r2s:">
                                         <div className="transition-colors duration-100 ease-in-out bg-transparent mb-[1px] h-[9px] w-[9px] rounded-full xl:mr-1.5 border border-volcanic-900 group-hover:bg-coral-500 group-hover:border-coral-500">
                                         </div>
                                         For Hospitals
                                     </button>
-                                </li>
-                                <li className="z-nav h-full w-auto px-0 py-0.5 2xl:relative" data-headlessui-state="">
-                                    <button className="group w-full cursor-pointer h-full relative focus:outline-none text-[14px] uppercase tracking-[0.08em] flex flex-row-reverse items-center justify-between xl:flex-row xl:justify-center before:content-[''] before:absolute before:-bottom-3 before:w-full before:h-3" type="button" aria-expanded="false" data-headlessui-state="" id="headlessui-popover-button-:r30:">
+                                </li> */}
+                                {/* <li className="z-nav h-full w-auto px-0 py-0.5 2xl:relative">
+                                    <button className="group w-full cursor-pointer h-full relative focus:outline-none text-[14px] uppercase tracking-[0.08em] flex flex-row-reverse items-center justify-between xl:flex-row xl:justify-center before:content-[''] before:absolute before:-bottom-3 before:w-full before:h-3" type="button" aria-expanded="false" id="headlessui-popover-button-:r30:">
                                         <div className="transition-colors duration-100 ease-in-out bg-transparent mb-[1px] h-[9px] w-[9px] rounded-full xl:mr-1.5 border border-volcanic-900 group-hover:bg-coral-500 group-hover:border-coral-500">
                                         </div>
                                         Research
                                     </button>
-                                </li>
+                                </li> */}
                                 <div hidden 
                                 style={{
                                     position: 'fixed', 
@@ -100,12 +100,14 @@ const Header = () => {
                                     borderWidth: '0px', 
                                     display: 'none'}}>
                                 </div>
-                                <li className="z-nav h-full w-auto px-0 py-0.5 2xl:relative" data-headlessui-state="">
-                                    <button className="group w-full cursor-pointer h-full relative focus:outline-none text-[14px] uppercase tracking-[0.08em] flex flex-row-reverse items-center justify-between xl:flex-row xl:justify-center before:content-[''] before:absolute before:-bottom-3 before:w-full before:h-3" type="button" aria-expanded="false" data-headlessui-state="" id="headlessui-popover-button-:r32:">
-                                        <div className="transition-colors duration-100 ease-in-out bg-transparent mb-[1px] h-[9px] w-[9px] rounded-full xl:mr-1.5 border border-volcanic-900 group-hover:bg-coral-500 group-hover:border-coral-500">
-                                        </div>
-                                        Company
-                                    </button>
+                                <li className="z-nav h-full w-auto px-0 py-0.5 2xl:relative">
+                                    <a href="https://chat.santesys.in" target="_blank" rel="noopener noreferrer">
+                                        <button className="group w-full cursor-pointer h-full relative focus:outline-none text-[14px] uppercase tracking-[0.08em] flex flex-row-reverse items-center justify-between xl:flex-row xl:justify-center before:content-[''] before:absolute before:-bottom-3 before:w-full before:h-3" type="button" aria-expanded="false">
+                                            <div className="transition-colors duration-100 ease-in-out bg-transparent mb-[1px] h-[9px] w-[9px] rounded-full xl:mr-1.5 border border-volcanic-900 group-hover:bg-coral-500 group-hover:border-coral-500">
+                                            </div>
+                                            Chat
+                                        </button>
+                                    </a>
                                 </li>
                                 <div 
                                     style={{
@@ -144,8 +146,8 @@ const Header = () => {
                     </div>
                 </div>
             </a>
-            <div className="relative z-nav h-full xl:hidden " data-headlessui-state="" >
-                <button aria-label={isOpen ? "close":"menu"} onClick={toggleMenu} type="button" aria-expanded={isOpen} data-headlessui-state=""  id="headlessui-popover-button-:Rb57rrikva: ">
+            <div className="relative z-nav h-full xl:hidden " >
+                <button aria-label={isOpen ? "close":"menu"} onClick={toggleMenu} type="button" aria-expanded={isOpen}  id="headlessui-popover-button-:Rb57rrikva: ">
                     <div className="h-full min-h-cell-md max-h-cell-md flex grow group/cell transition-all">
                         <span className="border-mushroom-500 bg-mushroom-50 h-full min-h-cell-md max-h-cell-md transition-all bg-clip-padding origin-top-right w-6 -mr-4 -skew-x-[21deg] rounded-tl-[4px] rounded-bl-[10px] border border-r-0"></span>
                         <div className="text-volcanic-900 border-mushroom-500 bg-mushroom-50 h-full min-h-cell-md max-h-cell-md truncate flex grow relative transition-all border-b border-t">
@@ -197,16 +199,16 @@ const Header = () => {
                                     Developers
                                 </button>
                             </li>
-                            <li className="z-nav w-full px-5 pl-10 py-4">
+                            {/* <li className="z-nav w-full px-5 pl-10 py-4">
                                 <button className="group w-full cursor-pointer h-full relative focus:outline-none text-[14px] uppercase tracking-[0.08em] flex flex-row-reverse items-center justify-between xl:flex-row xl:justify-center before:content-[''] before:absolute before:-bottom-3 before:w-full before:h-3">
                                     <div className="transition-colors duration-100 ease-in-out bg-transparent mb-[1px] h-[9px] w-[9px] rounded-full xl:mr-1.5 border border-volcanic-800 group-hover:border-coral-500 group-hover:bg-coral-500 group-focus:border-coral-500 group-focus:bg-coral-500"></div>
                                     Research
                                 </button>
-                            </li>
+                            </li> */}
                             <li className="z-nav w-full px-5 pl-10 py-4">
                                 <button className="group w-full cursor-pointer h-full relative focus:outline-none text-[14px] uppercase tracking-[0.08em] flex flex-row-reverse items-center justify-between xl:flex-row xl:justify-center before:content-[''] before:absolute before:-bottom-3 before:w-full before:h-3">
                                     <div className="transition-colors duration-100 ease-in-out bg-transparent mb-[1px] h-[9px] w-[9px] rounded-full xl:mr-1.5 border border-volcanic-800 group-hover:border-coral-500 group-hover:bg-coral-500 group-focus:border-coral-500 group-focus:bg-coral-500"></div>
-                                    Company
+                                    Chat
                                 </button>
                             </li>
                         </ul>

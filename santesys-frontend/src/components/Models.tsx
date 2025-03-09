@@ -15,7 +15,7 @@ const Models = () =>{
                     decoding="async"
                     width='0'
                     height='0' 
-                    data-nimg="1" 
+                    
                     className="h-auto w-full object-contain hidden !h-full !object-cover object-center lg:block z-background" 
                     style={{color:'transparent',width: '100%', height: 'auto'}}
                     sizes="100vw" 
@@ -29,7 +29,7 @@ const Models = () =>{
                     title="" 
                     loading="lazy" 
                     decoding="async" 
-                    data-nimg="1" 
+                    
                     className="h-auto w-full object-contain hidden !h-full !object-cover object-center sm:block lg:hidden z-background" 
                     style={{color:'transparent',width: '100%', height: 'auto'}} 
                     sizes="100vw" 
@@ -43,7 +43,7 @@ const Models = () =>{
                     width='100%'
                     // height='0'
                     decoding="async" 
-                    data-nimg="1" 
+                    
                     className="h-auto w-full object-contain block !h-full !object-cover object-center sm:hidden z-background" 
                     style={{color:'transparent',width: '100%', height: 'auto'}} 
                     sizes="100vw" 
@@ -67,7 +67,7 @@ const Models = () =>{
                                         title=""
                                         loading="lazy"
                                         decoding="async"
-                                        data-nimg="1"
+                                       
                                         className="h-auto w-full object-contain motionSafe:opacity-0 motion-safe:animate-[fadeInSpot_0.2s_linear_forwards] !h-3.5 !w-3.5 lg:!h-4 lg:!w-4"
                                         style={{ color: 'transparent' }}
                                         src="https://cdn.sanity.io/images/rjtqmwfu/production/4ef2d29439c7ab799af033f583a7f04543f91ae8-16x16.svg"
@@ -110,7 +110,7 @@ const Models = () =>{
                                         width="0" 
                                         height="0" 
                                         decoding="async" 
-                                        data-nimg="1" 
+                                        
                                         className="h-auto w-full object-contain motion-safe:opacity-0 motion-safe:animate-[fadeInSpot_0.2s_linear_forwards] !h-3.5 !w-3.5 lg:!h-4 lg:!w-4" 
                                         style={{color:'transparent'}} 
                                         src="https://cdn.sanity.io/images/rjtqmwfu/production/edc039dd5d2fa738f669b38dba03cd6de786a7ef-16x16.svg"/>
@@ -263,7 +263,7 @@ const Models = () =>{
                                         <span>QuickQueue</span>
                                         <br/>
                                     </p>
-                                    <img alt="Decorative icon for title" title="" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" className="h-auto w-full object-contain motion-safe:opacity-0 motion-safe:animate-[fadeInSpot_0.2s_linear_forwards] !h-3.5 !w-3.5 lg:!h-4 lg:!w-4" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/3a6986e934884dcfd228cf2bdd4680c1915d8d43-16x16.svg"/>
+                                    <img alt="Decorative icon for title" title="" loading="lazy" width="0" height="0" decoding="async" className="h-auto w-full object-contain motion-safe:opacity-0 motion-safe:animate-[fadeInSpot_0.2s_linear_forwards] !h-3.5 !w-3.5 lg:!h-4 lg:!w-4" style={{color:'transparent'}} src="https://cdn.sanity.io/images/rjtqmwfu/production/3a6986e934884dcfd228cf2bdd4680c1915d8d43-16x16.svg"/>
                                 </div>
                                 <div className="flex flex-col justify-between">
                                     <div className="flex w-full flex-col justify-end">
